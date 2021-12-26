@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+
+
+html{
+  font-size: 30px;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+.navbar
+{
+    background-color: #494b4d;
+    width: 100%;
+    height: 20%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: #fcf14e;
+}
+nav ul li a:hover
+{
+    color: #fcf14e;
+}
+a
+{
+    text-decoration: none;
+    color: #FF8C00;
+    font-size: 28px;
+}
+
+.heading{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #FF8C00;
+    font-weight: 700;
+    padding: 10px;
+}
+.btn{
+  display: inline-block;
+  margin-top: 5%;
+  background:#5488f0;
+  color:#fff;
+  padding:10px 10px;
+  border:2px solid #5488f0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background:#c6ddf5;
+  color: black;
+}
+
+
+section{
+  padding:30px 9%;
+}
+.places .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:30px;
+}
+
+.places .box-container .box{
+  flex:1 1 300px;
+  border-radius:5px;
+  overflow:hidden;
+  box-shadow: 0 20px 30px grey;
+}
+
+.places .box-container .box img{
+  height: 250px;
+  width:100%;
+  object-fit: cover;
+}
+
+.places .box-container .box .content{
+  padding:30px ;
+}
+
+.places .box-container .box .content h3{
+  font-family: Merriweather;
+  font-size:30px;
+  color:black;
+}
+
+
+.places .box-container .box .content p{
+  font-family: sans-serif;
+  font-size:20px;
+  color:black;
+  padding:15px 0;
+}
+
+.places .box-container .box .content .stars i{
+  font-size:20px;
+  color:#Fbdd08;
+}
+
+.places .box-container .box .content .price{
+  font-size: 30px;
+  color:black;
+  padding-top: 15px;
+}
+.book
+{
+    box-sizing: border-box;
+    text-align:center;
+    padding:15px;
+    margin-bottom:2%;
+    width: 30%;
+    height: 60px;
+    border:2px solid #5488f0;
+    background:#5488f0;
+    border-radius: 25px;
+    text-decoration:none;
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+ }
+.book:hover{
+  background:#c6ddf5;
+  color: black;
+  transition: .5s;
+}
+
+
+.footer
+{
+position:relative;
+top:100%;
+width:100%;
+  padding:50px;
+  background:#333;
+}
+
+.footer .box-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap:24px;
+}
+
+.footer .box-container .box
+{
+  padding:10px;
+  flex:15 15 15 250 px;
+}
+
+.footer .box-container .box h3
+{
+  font-size: 30px;
+  padding:10px;
+  color:#FF8C00;
+}
+
+.footer .box-container .box p
+{
+  font-size: 20px;
+  padding: 10px;
+  color:#eee;
+}
+
+.footer .box-container .box a
+{
+  display: block;
+  font-size: 20px;
+  padding: 10px ;
+  color:#eee;
+}
+
+.footer .box-container .box a:hover
+{
+  color:  #fcf14e;
+  text-decoration: underline;
+}
+
+.footer .credit{
+  text-align: center;
+  padding:30px 15px;
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: normal;
+  color:#fff;
+  border-top: 3px solid grey;
+}
+
+.footer .credit span{
+  color:#FF8C00;
+}
